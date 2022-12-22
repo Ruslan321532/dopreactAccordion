@@ -1,0 +1,81 @@
+.App {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .sign {
+    font-size: 25px;
+    transition: max-height 0.5s cubic-bezier(0,1,0,1);
+
+  }
+  .accordion {
+    width: 300px;
+    border: 1px solid rgb(133, 133, 133);
+    
+  }
+  .accordion_header {
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px;
+    border: 2px solid rgb(133, 133, 133);
+    background-color: orange;
+    transition: max-height 0.5s cubic-bezier(0,1,0,1);
+
+  }
+  .accordion_bods {
+    padding: 15px 5px;
+    background-color: rgb(255, 255, 143);
+
+    /* transition: max-height 0.5s cubic-bezier(0,1,0,1); */
+  }
+
+
+
+
+  .Apps {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .signs {
+    font-size: 25px;
+    transition: max-height 0.5s cubic-bezier(0,1,0,1);
+
+  }
+  .accordions {
+    width: 300px;
+    border: 1px solid rgb(133, 133, 133);
+    
+  }
+  .accordions_header {
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px;
+    border: 2px solid rgb(133, 133, 133);
+    background-color: orange;
+    transition: max-height 0.5s cubic-bezier(0,1,0,1);
+
+  }
+  .accordions_bods {
+    padding: 15px 5px;
+    background-color: rgb(255, 255, 143);
+
+    /* transition: max-height 0.5s cubic-bezier(0,1,0,1); */
+  }
+  
